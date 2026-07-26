@@ -76,6 +76,27 @@ export function getRecord<T = Record<string, unknown>>(
   }
 }
 
+/**
+ * Convenience helper for simple table pages: returns both the column list
+ * (from manifest.json, in source-sheet order) and the rows for a dataset in
+ * one call. Falls back to inferring columns from the first row if the slug
+ * isn't found in the manifest (shouldn't normally happen).
+ */
+export function getTableData(slug: string): { columns: string[]; rows: Record<string, unknown>[] } {
+  const rows = getDataset(slug);
+  let columns: string[] = [];
+  try {
+    const ds = getManifest().datasets.find((d) => d.slug === slug);
+    columns = ds?.columns ?? [];
+  } catch {
+    columns = [];
+  }
+  if (columns.length === 0 && rows.length > 0) {
+    columns = Object.keys(rows[0]);
+  }
+  return { columns, rows };
+}
+
 /** Paginate a dataset for table views (avoids shipping huge arrays to the client). */
 export function getPaginatedDataset<T = Record<string, unknown>>(
   slug: string,
