@@ -1,0 +1,16 @@
+{
+  "Date": "2024-11-02T00:00:00",
+  "Symbol": "JNJ",
+  "Type": "Buy",
+  "Quantity": 50,
+  "Price": 543.2,
+  "Commission": 9.95,
+  "Amount": -27169.95,
+  "Notes": "Initial position",
+  "col_8": null,
+  "col_9": null,
+  "col_10": null,
+  "col_11": null,
+  "col_12": null,
+  "col_13": null
+}

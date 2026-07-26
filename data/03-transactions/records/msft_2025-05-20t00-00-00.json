@@ -1,0 +1,16 @@
+{
+  "Date": "2025-05-20T00:00:00",
+  "Symbol": "MSFT",
+  "Type": "Buy",
+  "Quantity": 25,
+  "Price": 367.82,
+  "Commission": 9.95,
+  "Amount": -9205.449999999999,
+  "Notes": "Initial position",
+  "col_8": null,
+  "col_9": null,
+  "col_10": null,
+  "col_11": null,
+  "col_12": null,
+  "col_13": null
+}

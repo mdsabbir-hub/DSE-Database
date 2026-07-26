@@ -1,0 +1,16 @@
+{
+  "Date": "2025-08-15T00:00:00",
+  "Symbol": "KO",
+  "Type": "Dividend",
+  "Quantity": 100,
+  "Price": 0.48000000000000004,
+  "Commission": 0,
+  "Amount": -48,
+  "Notes": "Quarterly dividend",
+  "col_8": null,
+  "col_9": null,
+  "col_10": null,
+  "col_11": null,
+  "col_12": null,
+  "col_13": null
+}

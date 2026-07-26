@@ -1,0 +1,16 @@
+{
+  "Date": "2025-03-12T00:00:00",
+  "Symbol": "AAPL",
+  "Type": "Buy",
+  "Quantity": 40,
+  "Price": 376.34,
+  "Commission": 9.95,
+  "Amount": -15063.550000000001,
+  "Notes": "Initial position",
+  "col_8": null,
+  "col_9": null,
+  "col_10": null,
+  "col_11": null,
+  "col_12": null,
+  "col_13": null
+}

@@ -1,0 +1,212 @@
+{
+  "generatedAt": "2026-07-26T10:46:32.428Z",
+  "sourceFile": "database.numbers",
+  "excludedSheets": [
+    "01-dashboard",
+    "08-performance",
+    "09-allocation",
+    "10-roi-calculator",
+    "11-sip-calculator",
+    "12-break-even-calculator",
+    "13-reports",
+    "14-settings",
+    "15-formula-engine"
+  ],
+  "datasets": [
+    {
+      "name": "02 Portfolio",
+      "slug": "02-portfolio",
+      "rowCount": 6,
+      "skippedRows": 69,
+      "columns": [
+        "Symbol",
+        "Buy Date",
+        "Quantity",
+        "Buy Price",
+        "Commission",
+        "Company",
+        "Sector",
+        "Current Price",
+        "Market Value",
+        "Cost",
+        "Average Cost",
+        "Unrealized Gain",
+        "Gain %",
+        "Today's Gain",
+        "Today's %",
+        "Portfolio Weight",
+        "Break-even Price",
+        "col_17",
+        "col_18"
+      ],
+      "keyColumns": [
+        "Symbol"
+      ],
+      "hasPerRecordFiles": true
+    },
+    {
+      "name": "03 Transactions",
+      "slug": "03-transactions",
+      "rowCount": 7,
+      "skippedRows": 78,
+      "columns": [
+        "Date",
+        "Symbol",
+        "Type",
+        "Quantity",
+        "Price",
+        "Commission",
+        "Amount",
+        "Notes",
+        "col_8",
+        "col_9",
+        "col_10",
+        "col_11",
+        "col_12",
+        "col_13"
+      ],
+      "keyColumns": [
+        "Symbol",
+        "Date"
+      ],
+      "hasPerRecordFiles": true
+    },
+    {
+      "name": "04 Database",
+      "slug": "04-database",
+      "rowCount": 60,
+      "skippedRows": 195,
+      "columns": [
+        "Symbol",
+        "Company",
+        "Sector",
+        "Industry",
+        "Market",
+        "Currency",
+        "Last Price",
+        "Open",
+        "High",
+        "Low",
+        "Previous Close",
+        "Price Change",
+        "Percent Change",
+        "Volume",
+        "Value Traded",
+        "Market Cap ($M)",
+        "EPS",
+        "NAV",
+        "PE",
+        "Dividend Yield",
+        "Face Value",
+        "52W High",
+        "52W Low",
+        "Update Time",
+        "col_24",
+        "col_25",
+        "col_26",
+        "col_27",
+        "col_28"
+      ],
+      "keyColumns": [
+        "Symbol"
+      ],
+      "hasPerRecordFiles": true
+    },
+    {
+      "name": "05 Watchlist",
+      "slug": "05-watchlist",
+      "rowCount": 3,
+      "skippedRows": 52,
+      "columns": [
+        "Symbol",
+        "Target Price",
+        "Stop Loss",
+        "Fair Value",
+        "Current Price",
+        "Risk",
+        "Reward",
+        "Risk Level",
+        "Notes",
+        "col_9",
+        "col_10",
+        "col_11"
+      ],
+      "keyColumns": [
+        "Symbol"
+      ],
+      "hasPerRecordFiles": true
+    },
+    {
+      "name": "06 Dividend Tracker",
+      "slug": "06-dividend-tracker",
+      "rowCount": 2,
+      "skippedRows": 53,
+      "columns": [
+        "Symbol",
+        "Declared Date",
+        "Record Date",
+        "Payment Date",
+        "Dividend %",
+        "Shares Held",
+        "Expected Income",
+        "Received Income",
+        "Yield",
+        "Notes",
+        "col_10",
+        "col_11"
+      ],
+      "keyColumns": [
+        "Symbol",
+        "Payment Date"
+      ],
+      "hasPerRecordFiles": true
+    },
+    {
+      "name": "07 Cash Ledger",
+      "slug": "07-cash-ledger",
+      "rowCount": 60,
+      "skippedRows": 25,
+      "columns": [
+        "Date",
+        "Type",
+        "Description",
+        "Amount",
+        "Balance",
+        "col_5",
+        "col_6",
+        "col_7",
+        "col_8",
+        "col_9",
+        "col_10"
+      ],
+      "keyColumns": null,
+      "hasPerRecordFiles": false
+    },
+    {
+      "name": "16 Lookup Tables",
+      "slug": "16-lookup-tables",
+      "rowCount": 11,
+      "skippedRows": 64,
+      "columns": [
+        "Sectors",
+        "Markets",
+        "Currencies",
+        "Transaction Types",
+        "Cash Ledger Types",
+        "Risk Levels",
+        "col_6",
+        "col_7",
+        "col_8",
+        "col_9",
+        "col_10",
+        "col_11",
+        "col_12",
+        "col_13",
+        "col_14",
+        "col_15"
+      ],
+      "keyColumns": null,
+      "hasPerRecordFiles": false
+    }
+  ]
+}

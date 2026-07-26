@@ -1,0 +1,30 @@
+[
+  {
+    "Symbol": "KO",
+    "Declared Date": "2025-10-01T00:00:00",
+    "Record Date": "2025-10-15T00:00:00",
+    "Payment Date": "2025-11-15T00:00:00",
+    "Dividend %": 0.048,
+    "Shares Held": 100,
+    "Expected Income": 1357.3919999999998,
+    "Received Income": 0,
+    "Yield": 0.048,
+    "Notes": "Declared",
+    "col_10": null,
+    "col_11": null
+  },
+  {
+    "Symbol": "JNJ",
+    "Declared Date": "2025-09-10T00:00:00",
+    "Record Date": "2025-09-25T00:00:00",
+    "Payment Date": "2025-10-10T00:00:00",
+    "Dividend %": 0.013,
+    "Shares Held": 50,
+    "Expected Income": 342.79699999999997,
+    "Received Income": 342.79699999999997,
+    "Yield": 0.013000000000000001,
+    "Notes": "Received",
+    "col_10": null,
+    "col_11": null
+  }
+]

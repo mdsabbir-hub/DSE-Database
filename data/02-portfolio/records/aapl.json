@@ -1,0 +1,21 @@
+{
+  "Symbol": "AAPL",
+  "Buy Date": "2025-03-12T00:00:00",
+  "Quantity": 40,
+  "Buy Price": 376.34,
+  "Commission": 9.95,
+  "Company": "Apple Inc.",
+  "Sector": "Technology",
+  "Current Price": 409.06,
+  "Market Value": 16362.400000000001,
+  "Cost": 15063.550000000001,
+  "Average Cost": 376.58875,
+  "Unrealized Gain": 1298.8500000000001,
+  "Gain %": 0.08622469471007829,
+  "Today's Gain": 466.4,
+  "Today's %": 0.029340714645193798,
+  "Portfolio Weight": 0.15568011097716802,
+  "Break-even Price": 376.58875,
+  "col_17": null,
+  "col_18": null
+}

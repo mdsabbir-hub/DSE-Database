@@ -1,0 +1,21 @@
+{
+  "Symbol": "MSFT",
+  "Buy Date": "2025-05-20T00:00:00",
+  "Quantity": 25,
+  "Buy Price": 367.82,
+  "Commission": 9.95,
+  "Company": "Microsoft Corporation",
+  "Sector": "Technology",
+  "Current Price": 387.18,
+  "Market Value": 9679.5,
+  "Cost": 9205.449999999999,
+  "Average Cost": 368.21799999999996,
+  "Unrealized Gain": 474.04999999999995,
+  "Gain %": 0.0514966677348744,
+  "Today's Gain": -35.5,
+  "Today's %": -0.0036541430777148705,
+  "Portfolio Weight": 0.0920956359827102,
+  "Break-even Price": 368.21799999999996,
+  "col_17": null,
+  "col_18": null
+}

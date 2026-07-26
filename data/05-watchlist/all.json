@@ -1,0 +1,44 @@
+[
+  {
+    "Symbol": "GOOGL",
+    "Target Price": 185.1,
+    "Stop Loss": 144.85999999999999,
+    "Fair Value": 193.15,
+    "Current Price": 160.96,
+    "Risk": 16.1,
+    "Reward": 24.14,
+    "Risk Level": "Medium",
+    "Notes": "AI search monetization catalyst",
+    "col_9": null,
+    "col_10": null,
+    "col_11": null
+  },
+  {
+    "Symbol": "AMD",
+    "Target Price": 97.33,
+    "Stop Loss": 66.18,
+    "Fair Value": 101.22,
+    "Current Price": 77.86,
+    "Risk": 11.68,
+    "Reward": 19.47,
+    "Risk Level": "High",
+    "Notes": "Data center GPU share gains",
+    "col_9": null,
+    "col_10": null,
+    "col_11": null
+  },
+  {
+    "Symbol": "V",
+    "Target Price": 521.6899999999999,
+    "Stop Loss": 436.32,
+    "Fair Value": 531.17,
+    "Current Price": 474.26,
+    "Risk": 37.94,
+    "Reward": 47.43,
+    "Risk Level": "Low",
+    "Notes": "Defensive payments compounder",
+    "col_9": null,
+    "col_10": null,
+    "col_11": null
+  }
+]

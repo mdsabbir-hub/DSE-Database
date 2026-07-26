@@ -1,0 +1,21 @@
+{
+  "Symbol": "JNJ",
+  "Buy Date": "2024-11-02T00:00:00",
+  "Quantity": 50,
+  "Buy Price": 543.2,
+  "Commission": 9.95,
+  "Company": "Johnson & Johnson",
+  "Sector": "Healthcare",
+  "Current Price": 527.38,
+  "Market Value": 26369,
+  "Cost": 27169.95,
+  "Average Cost": 543.399,
+  "Unrealized Gain": -800.95,
+  "Gain %": -0.0294792592551698,
+  "Today's Gain": -12,
+  "Today's %": -0.000454872825139305,
+  "Portfolio Weight": 0.250887941032914,
+  "Break-even Price": 543.399,
+  "col_17": null,
+  "col_18": null
+}
