@@ -1,0 +1,62 @@
+name: Update ForthPoint Data
+
+on:
+  # Runs automatically whenever the Numbers file changes
+  push:
+    paths:
+      - "source/database.numbers"
+  # Runs every day at 06:00 UTC as a safety net (e.g. if the file is
+  # updated via an external source instead of a direct git push)
+  schedule:
+    - cron: "0 6 * * *"
+  # Lets you trigger it manually from the GitHub Actions tab -
+  # USE THIS the first time, and any time you want to sanity-check parsing.
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build-data:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python (for the Numbers parser)
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install Python dependencies
+        run: pip install -r requirements.txt
+
+      - name: Setup Node.js (for generate/validate scripts)
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+
+      - name: Install Node dependencies
+        run: npm ci || npm install
+
+      - name: Parse Numbers file -> raw JSON
+        run: npm run parse
+
+      - name: Generate final /data structure
+        run: npm run generate
+
+      - name: Validate generated data
+        run: npm run validate
+
+      - name: Commit and push updated data
+        run: |
+          git config user.name "forthpoint-bot"
+          git config user.email "bot@forthpoint.local"
+          git add data/
+          if git diff --cached --quiet; then
+            echo "No data changes to commit."
+          else
+            git commit -m "chore: auto-update data from Numbers file [skip ci]"
+            git push
+          fi
