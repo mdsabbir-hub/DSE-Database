@@ -1,0 +1,23 @@
+# Dependencies
+node_modules/
+
+# Build output
+.next/
+out/
+dist/
+
+# Intermediate parser output - never commit, regenerated every run
+tmp-data/
+
+# Env / secrets
+.env
+.env.local
+.env*.local
+
+# OS / editor
+.DS_Store
+*.log
+.vscode/
+
+# Vercel
+.vercel
