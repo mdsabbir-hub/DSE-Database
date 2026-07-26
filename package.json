@@ -3,14 +3,27 @@
   "version": "1.0.0",
   "private": true,
   "type": "module",
-  "description": "Excel-to-JSON data pipeline for ForthPoint Terminal",
+  "description": "ForthPoint Terminal - Excel/Numbers-to-JSON data pipeline + Next.js app",
   "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
     "parse": "python3 scripts/numbers-parser.py",
     "generate": "node scripts/generate-json.js",
     "validate": "node scripts/validate-data.js",
     "build:data": "npm run parse && npm run generate && npm run validate"
   },
-  "dependencies": {},
+  "dependencies": {
+    "next": "^14.2.5",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.4",
+    "@types/node": "^20.14.15",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0"
+  },
   "engines": {
     "node": ">=18"
   }
